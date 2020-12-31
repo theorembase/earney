@@ -88,9 +88,9 @@ def main():
     dp.add_error_handler(error)
     updater.start_webhook(listen="0.0.0.0",
                           port=PORT,
-                          url_path=1487976162:AAFLVPzgDCSIknZTHTvWKhqde8fz2H5-xnI)
+                          url_path="1487976162:AAFLVPzgDCSIknZTHTvWKhqde8fz2H5-xnI")
     # updater.bot.set_webhook(url=settings.WEBHOOK_URL)
-    updater.bot.set_webhook("earney" + 1487976162:AAFLVPzgDCSIknZTHTvWKhqde8fz2H5-xnI)
+    updater.bot.set_webhook("earney" + "1487976162:AAFLVPzgDCSIknZTHTvWKhqde8fz2H5-xnI")
 
 
     # Start the Bot
